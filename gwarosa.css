@@ -1,0 +1,93 @@
+@font-face {
+ font-family: 'ON-IGothic'; 
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eleven@1.0/ON-IGothic.woff') format('woff'); 
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+background-image: url(https://joking7898.github.io/Tgd/gwarosabg.png);
+height: auto !important;
+font-family: 'ON-IGothic';
+font-size :15px; 
+}
+/*로고*/
+header .row>div:nth-child(1)>a img {
+    opacity: 0
+}
+
+header .row > div:first-child > a {
+    background-repeat: no-repeat;
+    display: block;
+    width: 200px;
+    height: 55px;
+    background-image: url(https://joking7898.github.io/Tgd/Gwarosa_logo.png);
+}
+
+/*트게더 보고 있는사람 인원수 */
+#board-info #viewers-area {
+    color: #000000; 
+}
+
+#board-info #viewers-area #viewers::before{
+    content:'이세카이의  ';
+    cursor: text;
+}
+#board-info #viewers-area #viewers::after{
+    content:'명의 시청자분들 이이잉 앗살랍말라이꾸웁 ';
+    cursor: text;
+}
+
+/* 메뉴부분 */
+
+#main .menu-wrapper>.header {
+    color:  #fff;
+    padding: .45em 1.4em .45em 1em;
+    font-weight: 700;
+    background: #ff8400;
+}
+#main .menu-wrapper {
+    border: 3px solid #ff8400;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#main .menu-wrapper .spacer {
+    background:#ff8400;
+}
+#main .menu-wrapper a:nth-last-child(1) {
+    border-radius: 0px 0px 5px 5px;
+}
+/* 게시글 */
+#main #main-content>div.frame {
+    border-top: 5px solid #81c147;
+    border: 3px solid #ff8400;
+   border-radius: 5px 5px 5px 5px;
+}
+/*마우스*/
+/* 마우스 커서 포인터 */
+html,
+body,
+.fr-popup.emoticons,
+.fr-top,
+select.form-control,
+input[type=checkbox],
+input[type=radio],
+.opt
+ {
+ cursor: url(https://joking7898.github.io/Tgd/gmouse.png) 0 0, auto !important;
+}
+/* 마우스 커서 링크 */
+#right-search-form>#right-search-btn,
+#board-info #board-info-bottom #addFavoriteBtn,
+#article-list #article-option-area>#article-option-area-toggle-btn,
+#article-list>.article-list-row>.item>.list-title>.list-writer>span,
+.reply > .reply-header > .reply-writer.logged,
+.reply-menu,
+.btn,
+.fr-toolbar .fr-command.fr-btn,
+.fr-popup .fr-command.fr-btn,
+.fr-view img,
+.pull-left,
+a {
+ cursor: url(https://joking7898.github.io/Tgd/gmouse.png) 0 0, auto !important;
+}
