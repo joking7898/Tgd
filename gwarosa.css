@@ -92,3 +92,7 @@ a {
  cursor: url(https://joking7898.github.io/Tgd/gmouse.png) 0 0, auto !important;
 }
 
+/*공지사항 얼굴*/
+#article-list-row-28406465 {
+    background-image: url(https://joking7898.github.io/Tgd/eyes.png) !important;
+}
